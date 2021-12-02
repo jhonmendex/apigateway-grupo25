@@ -1,0 +1,21 @@
+{
+  "name": "api_gateway",
+  "version": "1.0.0",
+  "description": "API Gateway with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hola mundo",
+    "start": "nodemon src/index.js",
+    "prueba": "ls -l"
+  },
+  "keywords": [],
+  "author": "jhon mendez",
+  "license": "ISC",
+  "dependencies": {
+        "apollo-datasource-rest": "^3.1.1",
+        "apollo-server": "^3.1.2",
+        "graphql": "^15.5.1",
+        "lodash": "^4.17.21",
+        "node-fetch": "^2.6.1"
+  }
+}
